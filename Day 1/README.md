@@ -62,5 +62,11 @@ Virtual Machine yang saya gunakan adalah Orace Virtual Box.
 Untuk install nginx, pertama kali kita harus mengupdate system ubuntu terlebih dahulu lalu install nginx dengan perintah sebagai berikut:
 ```sh
 sudo apt update
+```
+![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20update.png?raw=true)
+
+```sh
 sudo apt install nginx
 ```
+![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20install%20nginx.png?raw=true)
+
