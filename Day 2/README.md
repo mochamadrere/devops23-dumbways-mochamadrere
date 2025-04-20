@@ -56,3 +56,19 @@
   | IP Awal | 192.168.11.5 |
   | IP Akhir | 192.168.11.6 |
   | IP Broadcast | 192.168.11.7 |
+
+
+## 2. SH(Shell) dan BASH(Bourne Again Shell)
+
+### Definisi
+Keduanya memiliki definisi yang sama yaitu program yang menyediakan Command Line Interface (CLI) yang memungkinkan user berinteraksi dengan sistem operasi atau aplikasi dengan perintah teks yang diketikan di terminal.
+
+
+### Perbedaan
+
+
+| SH(Shell) | BASH |
+| --------- | --------- |
+| Asli dari UNIX | Dibuat oleh GNU sebagai pengganti open-source untuk Bourne Shell |
+| File binary biasanya ada pada /bin/sh | File binary biasanya ada pada /bin/bash |
+| Fitur terbatas, karena dibuat pada era Unix lama | Lebih powerful, modern dan banyak tambahan fitur |
