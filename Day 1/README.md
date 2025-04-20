@@ -47,3 +47,14 @@ DevOps bertujuan untuk membuat seluruh proses tersebut menjadi otomatis agar:
 - **Continuous Deployment**
   
   _Continuous Deployment_ Setelah proses _Continuous Integration-Delivery_ sudah dinyatakan dengan baik, tim development dapat melihat perubahan yang terjadi pada _environment test / environment development / environment production_.
+
+
+  
+# 2. Virtual Machine
+
+![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/virtual%20box.png?raw=true)
+
+Virtual Machine yang saya gunakan adalah Orace Virtual Box.
+
+
+# 3. Install Nginx WebServer ke dalam Virtual Machine
