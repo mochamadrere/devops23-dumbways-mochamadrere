@@ -58,3 +58,9 @@ Virtual Machine yang saya gunakan adalah Orace Virtual Box.
 
 
 # 3. Install Nginx WebServer ke dalam Virtual Machine
+
+Untuk install nginx, pertama kali kita harus mengupdate system ubuntu terlebih dahulu lalu install nginx dengan perintah sebagai berikut:
+```sh
+sudo apt update
+sudo apt install nginx
+```
