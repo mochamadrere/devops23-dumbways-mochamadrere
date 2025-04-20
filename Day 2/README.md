@@ -12,3 +12,47 @@
   Jadi, karena kita menggunakan IP Kelas C, Subnet mask dari /30 adalah **255.255.255.252**
 
 
+- Jumlah Subnet?
+
+  11111111.11111111.11111111.**11111100**  => 1 = x || 0 = y  => Diketahui x = 6 dan y = 2
+
+
+  2^x = 2^6 = **64**
+
+
+  Jadi, jumlah subnet dari /30 adalah **64**
+
+
+- Jumlah Host?
+
+
+  2^y = 2^2 = **2**
+
+
+  Jadi, jumlah host yang bisa digunakan adalah **2**
+
+
+- Blok Subnet (_Kelipatan IP Address per subnet_) ?
+
+
+  256 - (_subnet mask_) = 256 - 252 = **4**
+
+
+  Jadi, angka yang dijadikan untuk subnet adalah **0,4,8,12,16, dst**
+
+
+- Tabel Subnetting
+
+  ### Subnet pertama
+  | **IP Network** | **192.168.11.0** |
+  | -------------- | ---------------- |
+  | IP Awal | 192.168.11.1 |
+  | IP Akhir | 192.168.11.2 |
+  | IP Broadcast | 192.168.11.3 |
+
+  ### Subnet kedua
+  | **IP Network** | **192.168.11.4** |
+  | -------------- | ---------------- |
+  | IP Awal | 192.168.11.5 |
+  | IP Akhir | 192.168.11.6 |
+  | IP Broadcast | 192.168.11.7 |
