@@ -59,14 +59,27 @@ Virtual Machine yang saya gunakan adalah Orace Virtual Box.
 
 # 3. Install Nginx WebServer ke dalam Virtual Machine
 
-Untuk install nginx, pertama kali kita harus mengupdate system ubuntu terlebih dahulu lalu install nginx dengan perintah sebagai berikut:
-```sh
-sudo apt update
-```
-![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20update.png?raw=true)
+- Untuk install nginx, pertama kali kita harus mengupdate system ubuntu terlebih dahulu lalu install nginx dengan perintah sebagai berikut:
 
-```sh
-sudo apt install nginx
-```
-![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20install%20nginx.png?raw=true)
+  ```sh
+  sudo apt update
+  ```
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20update.png?raw=true)
 
+  ```sh
+  sudo apt install nginx
+  ```
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20install%20nginx.png?raw=true)
+
+- Cek apakah nginx sudah terinstall dan active dengan perintah :
+
+  ```sh
+  systemctl status nginx
+  ```
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/systemctl%20status%20nginx.png?raw=true)
+
+- Lalu cek via web di windows dengan ketikan alamat ip address yang sudah kita konfigurasi sebelumnya saat penginstallan ubuntu server di virtual box :
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/nginx%20192.168.1.9.png?raw=true)
+
+
+  # Sekian Terima Kasih
