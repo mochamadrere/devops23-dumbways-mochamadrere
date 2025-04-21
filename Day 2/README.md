@@ -72,3 +72,23 @@ Keduanya memiliki definisi yang sama yaitu program yang menyediakan Command Line
 | Asli dari UNIX | Dibuat oleh GNU sebagai pengganti open-source untuk Bourne Shell |
 | File binary biasanya ada pada /bin/sh | File binary biasanya ada pada /bin/bash |
 | Fitur terbatas, karena dibuat pada era Unix lama | Lebih powerful, modern dan banyak tambahan fitur |
+
+
+## 3. Command Linux
+
+| Command | Keterangan |
+| ------- | -------- |
+| sudo su | untuk login sebagai super user atau admin |
+| sudo apt update | untuk memperbarui daftar paket di lokal |
+| sudo apt uprade | untuk menginstall versi terbaru dari paket paket yang sudah terpasang |
+| apt | application berfungsi untuk download dan install seperti play store |
+| mkdir | make directory untuk membuat folder |
+| ls | list untuk melihat isi dari folder |
+| touch | untuk membuat sebuah file |
+| cd | untuk membuka sebuah folder/file |
+| cd .. | untuk mundur 1 folder |
+| cd .ssh | masuk ke direktori file yang berekstensi (.) atau ssh |
+| cp | copy sebuah file |
+| mv | memindahkan sebuah folder/file |
+| ping _(SEBUAH IP/DNS)_ | untuk mengcek apakah connection berjalan dengan baik |
+
