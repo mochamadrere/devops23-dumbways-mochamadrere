@@ -18,14 +18,15 @@
   keterangan diatas menunjukkan bahwa ssh server sudah aktif dan bisa digunakan.
 
 
-  - Setelah itu saya akan test apakah sudah bisa digunakan atau belum, disini saya menggunakan Windows Terminal
- 
-    ketikkan perintah dengan format **ssh (username ubuntu)@(ip address ubuntu)**
+- Setelah itu saya akan test apakah sudah bisa digunakan atau belum, disini saya menggunakan Windows Terminal
 
 
-    ```sh
-    ssh mrua@192.168.1.9
-    ```
+  ketikkan perintah dengan format **ssh (username ubuntu)@(ip address ubuntu)**
 
 
-    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20mrua%40192.168.1.9.png)
+  ```sh
+  ssh mrua@192.168.1.9
+  ```
+
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20mrua%40192.168.1.9.png)
