@@ -1,7 +1,7 @@
 # Basic Shell & Networking
 
 ## 1. Diagram network dengan CIDR Block 192.168.11.0/30 Kelas C
-![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/diagram%20network%20cidr%20blok%2030.png?raw=true)
+![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/diagram%20network%20cidr%20blok%2030.png?raw=true)
 
 ### Penjelasan :
 - 192.168.11.0/30 bagaimana cara menghitung subnet mask nya?
