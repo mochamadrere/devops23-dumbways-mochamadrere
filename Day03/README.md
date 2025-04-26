@@ -45,10 +45,25 @@
 
 - Cek apakah file kunci.pub sudah terbentuk atau belum di file direktori ``` C:\Users\mocha\.ssh ```
 
-
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cek%20file%20kunci.pub%20di%20lokal.png)
 
 
-- Buka file kunci.pub lalu copy yang nantinya akan saya copy ke dalam file ssh di server ubuntu
+- Buka file kunci.pub lalu copy yang nantinya akan saya paste ke dalam file ssh di server ubuntu
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/kunci.pub.png)
+
+
+- Selanjutnya pada windows terminal kita masuk ke server ubuntu via ssh terlebih dahulu untuk mem paste _publickey_ yang sudah di generate kedalam file ssh server.
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/open%20file%20.ssh%20di%20server%20ubuntu.png)
+
+
+  Paste _publickey_ lalu save
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/authorized_keys.png)
+
+
+- Oke, saya akan test apakah sudah berhasil, dengan ketikkan perintah ``` ssh -i .ssh/kunci mrua@192.168.1.9 ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20-i%20.ssh(slash)kunci%20mrua%40192.168.1.9.png)
+  
