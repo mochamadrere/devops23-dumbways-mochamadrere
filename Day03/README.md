@@ -41,3 +41,14 @@
 
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh-keygen.png)
+
+
+- Cek apakah file kunci.pub sudah terbentuk atau belum di file direktori ``` C:\Users\mocha\.ssh ```
+
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cek%20file%20kunci.pub%20di%20lokal.png)
+
+
+- Buka file kunci.pub lalu copy yang nantinya akan saya copy ke dalam file ssh di server ubuntu
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cek%20file%20kunci.pub%20di%20lokal.png)
