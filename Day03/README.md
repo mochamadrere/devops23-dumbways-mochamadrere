@@ -30,3 +30,14 @@
 
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20mrua%40192.168.1.9.png)
+
+
+## 2. Konfigurasi SSH agar bisa di akses hanya menggunakan _publickey_ (password dimatikan)
+
+
+- Langkah awal saya akan mengenerate key ssh dengan ketikkan perintah ``` ssh-keygen ```
+
+  selanjutnya ketikkan perintah ``` C:\Users\mocha/.ssh/kunci ``` /kunci adalah nama file yang ingin saya buat yang berisi password atau openssh key
+
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh-keygen.png)
