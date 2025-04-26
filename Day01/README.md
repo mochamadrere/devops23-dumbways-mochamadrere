@@ -52,7 +52,7 @@ DevOps bertujuan untuk membuat seluruh proses tersebut menjadi otomatis agar:
   
 # 2. Virtual Machine
 
-![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/virtual%20box.png?raw=true)
+![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/virtual%20box.png?raw=true)
 
 Virtual Machine yang saya gunakan adalah Orace Virtual Box.
 
