@@ -51,4 +51,4 @@
 
 - Buka file kunci.pub lalu copy yang nantinya akan saya copy ke dalam file ssh di server ubuntu
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cek%20file%20kunci.pub%20di%20lokal.png)
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/kunci.pub.png)
