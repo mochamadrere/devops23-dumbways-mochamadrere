@@ -64,22 +64,22 @@ Virtual Machine yang saya gunakan adalah Orace Virtual Box.
   ```sh
   sudo apt update
   ```
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20update.png?raw=true)
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20apt%20update.png?raw=true)
 
   ```sh
   sudo apt install nginx
   ```
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/sudo%20apt%20install%20nginx.png?raw=true)
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20apt%20install%20nginx.png?raw=true)
 
 - Cek apakah nginx sudah terinstall dan active dengan perintah :
 
   ```sh
   systemctl status nginx
   ```
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/systemctl%20status%20nginx.png?raw=true)
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/systemctl%20status%20nginx.png?raw=true)
 
 - Lalu cek via web di windows dengan ketikan alamat ip address yang sudah kita konfigurasi sebelumnya saat penginstallan ubuntu server di virtual box :
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/pict/nginx%20192.168.1.9.png?raw=true)
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/nginx%20192.168.1.9.png?raw=true)
 
 
   # Sekian Terima Kasih
