@@ -70,9 +70,10 @@
 
 ## 3. Step by step penggunaan text manipulation (cat, sed, grep, echo)
 
-- Jika ingin membuat sebuah file dan edit isi file tersebut bisa menggunakan ``` nano nama_file ``` atau ``` cat > nama_file ```
- 
+- **CAT**
 
+  Jika ingin membuat sebuah file dan isi file tersebut bisa menggunakan ``` nano nama_file ``` atau ``` cat > nama_file ```
+ 
   namun disini saya akan menjelaskan detail apa saja fungsi penggunaan ``` cat ```
 
   contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ``` lalu tekan **Enter** dan **CTRL + C**
@@ -80,4 +81,14 @@
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
 
 - Menggabungkan isi dari 2 buah file sekaligus membuat file baru dengan menggunakan perintah ``` cat file1 file2 > file3 ```
-  
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/menggabungkan%20kedua%20file%20dan%20masukkan%20ke%20file%20baru.png)
+
+
+- **SED**
+
+  Jika ingin edit kata dari sebuah file secara langsung dengan 1 perintah, ketikkan perintah dengan format ``` sed -i 's/kata_before/kata_after/g' nama_file ```
+
+  contoh saya memiliki file yang bernama file1 yang berisi **hello dumbways**
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/isi%20file1.png)
