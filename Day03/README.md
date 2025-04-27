@@ -70,29 +70,63 @@
 
 ## 3. Step by step penggunaan text manipulation (cat, sed, grep, echo)
 
-- **CAT**
+  **A. CAT**
 
-  Jika ingin membuat sebuah file dan isi file tersebut bisa menggunakan ``` nano nama_file ``` atau ``` cat > nama_file ```
+  - Jika ingin membuat sebuah file dan isi file tersebut bisa menggunakan ``` nano nama_file ``` atau ``` cat > nama_file ```
  
-  namun disini saya akan menjelaskan detail apa saja fungsi penggunaan ``` cat ```
+    namun disini saya akan menjelaskan detail apa saja fungsi penggunaan ``` cat ```
 
-  contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ``` lalu tekan **Enter** dan **CTRL + C**
+    contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ``` lalu tekan **Enter** dan **CTRL + C**
   
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
 
-- Menggabungkan isi dari 2 buah file sekaligus membuat file baru dengan menggunakan perintah ``` cat file1 file2 > file3 ```
+  - Menggabungkan isi dari 2 buah file sekaligus membuat file baru dengan menggunakan perintah ``` cat file1 file2 > file3 ```
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/menggabungkan%20kedua%20file%20dan%20masukkan%20ke%20file%20baru.png)
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/menggabungkan%20kedua%20file%20dan%20masukkan%20ke%20file%20baru.png)
 
 
-- **SED**
+  **B. SED**
 
-  Jika ingin edit kata dari sebuah file secara langsung dengan 1 perintah, ketikkan perintah dengan format ``` sed -i 's/kata_before/kata_after/g' nama_file ```
+  - Jika ingin edit kata dari sebuah file secara langsung dengan 1 perintah, ketikkan perintah dengan format ``` sed -i 's/kata_before/kata_after/g' nama_file ```
 
-  contoh saya memiliki file yang bernama file1 yang berisi **hello dumbways**
+    contoh saya memiliki file yang bernama file1 yang berisi **hello dumbways**
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/isi%20file1.png)
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/isi%20file1.png)
 
-  saya ingin mengubah kata **hello** menjadi **hai** dengan ketikkan perintah ``` sed -i 's/hello/hai/g' file1 ```
+  - saya ingin mengubah kata **hello** menjadi **hai** dengan ketikkan perintah ``` sed -i 's/hello/hai/g' file1 ```
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/penggunaan%20sed%20-i.png)
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/penggunaan%20sed%20-i.png)
+
+
+  **C. GREP**
+
+  - Jika ingin mencari kata dari sebuah file, ketikkan perintah dengan format ``` grep kata nama_file ```
+
+    contoh saya ingin mencari kata **hai** didalam sebuah file **file1**
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/penggunaan%20grep%20untuk%20search%20kata%20didalam%20file.png)
+
+  - Menghitung ada berapa banyak kata **hai** didalam **file1** dengan ketikkan perintah ``` grep -c hai file1 ```
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/grep%20c.png)
+
+  - Menghitung ada berapa banyak kata **hello** di semua file dengan ketikkan perintah ``` grep -c hello * ```
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/grep%20c%20hello%20bintang.png)
+
+
+  **D. ECHO**
+
+  - Jika ingin mencetak sebuah kalimat, ketikkan perintah dengan format ``` echo "isi kalimat" ```
+
+    contoh saya ingin mencetak kalimat **Hello World** ketikkan perintah ``` echo "Hello World" ```
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/echo%20mencetak%20kata.png)
+
+  - Mencetak kalimat lalu memasukkannya kedalam sebuah file ``` echo "ini file4" > file4 ```
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/echo%20mencetak%20dan%20menambah%20file.png)
+
+  - Mencetak kalimat dibaris berikutnya didalam sebuah file ``` echo "iya benar ini file4" >> file4 ```
+
+    ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/echo%20mencetak%20baris%20baru%20di%20sebuah%20file.png)
