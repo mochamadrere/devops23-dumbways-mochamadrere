@@ -92,3 +92,7 @@
   contoh saya memiliki file yang bernama file1 yang berisi **hello dumbways**
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/isi%20file1.png)
+
+  saya ingin mengubah kata **hello** menjadi **hai** dengan ketikkan perintah ``` sed -i 's/hello/hai/g' file1 ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/penggunaan%20sed%20-i.png)
