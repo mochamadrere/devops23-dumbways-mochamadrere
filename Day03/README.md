@@ -77,4 +77,5 @@
 
 
   contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ```
+  
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
