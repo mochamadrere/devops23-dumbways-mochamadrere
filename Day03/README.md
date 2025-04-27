@@ -130,3 +130,34 @@
   - Mencetak kalimat dibaris berikutnya didalam sebuah file ``` echo "iya benar ini file4" >> file4 ```
 
     ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/echo%20mencetak%20baris%20baru%20di%20sebuah%20file.png)
+
+
+## 4. Mengaktifkan _ufw_ dengan memberikan akses untuk port 22, 80, 443, 3000, 5000, dan 6969
+
+  _ufw_ adalah uncomplicated firewall tools firewall yang mudah untuk digunakan dengan fungsi mengontrol semua koneksi mana yang boleh dan mana yang diblokir ke server kita.
+
+- contoh penggunaan _ufw_ pada ubuntu server dengan ketikkan perintah ``` sudo ufw enable ```
+
+  sebelumnya cek terlebih dahulu apakah _ufw_ sudah aktif atau belum dengan ketikkan perintah ``` sudo ufw status ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20ufw.png)
+
+- cek aplikasi apa saja yang sudah harus melewati firewall dengan ketikkan perintah ``` sudo ufw app list ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20ufw%20app%20list.png)
+
+- sekarang saya akan memberikan akses untuk port 22, port 22 adalah default SSH jadi ketikkan perintah ``` sudo ufw allow "OpenSSH" ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20ufw%20allow%20OpenSSH.png)
+
+- saya juga akan memberikan akses untuk port 80, 443, 3000, 5000 dan 6969. Ketikkan perintah dengan format ``` sudo ufw allow angka_port ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20ufw%20allow%2080%2C%20443%2C%203000%2C%205000%2C%206969.png)
+
+- sekarang cek apakah port port yang sudah kita beri akses ini sudah aktif atau belum, ketikkan perintah ``` sudo ufw status ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/sudo%20ufw%20status.png)
+
+
+# THANK YOU
+  
