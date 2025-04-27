@@ -8,3 +8,12 @@
 **GIT** adalah sistem kontrol versi yang digunakan untuk mencatat perubahan pada file, yang biasanya dalam proyek pengembangan system atau software. Git dapat membantu melacak perubahan yang dibuat ke file dan memungkinkan kembali ke versi yang sebelumnya jika perlu. GIT juga memudahkan banyak pengguna untuk bekerja sama di sebuah proyek yang sama tanpa saling mengacaukan kerjaan masing - masing. GIT berkolaborasi dengan platform online seperti _GitHub, GitLab, atau BitBucket_.
 
 ## 2. Buat sebuah repository "dumbways-batch-23" yang berisi 3 file
+
+
+- Buat user dan email git pada terminal
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/git%20config%20global%20user%20dan%20email.png)
+
+- Copy SSH keygen pada terminal di file id_rsa.pub ke platform online GitHub dengan cara klik ``` Setting ``` lalu pilih ``` SSH and GPG keys ``` klik ``` new SSH key ``` dan paste ke kolom **key** dan klik ``` Add SSH key ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/copy%20paste%20ssh%20key.png)
