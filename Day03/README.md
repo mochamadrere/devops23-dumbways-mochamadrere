@@ -68,5 +68,13 @@
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20-i%20.ssh(slash)kunci%20mrua%40192.168.1.9.png)
 
 
-  ## Step by step penggunaan text manipulation (cat, sed, grep, echo)
-  
+## 3. Step by step penggunaan text manipulation (cat, sed, grep, echo)
+
+- Jika ingin membuat sebuah file dan edit isi file tersebut bisa menggunakan ``` nano nama_file ``` atau ``` cat > nama_file ```
+ 
+
+  namun disini saya akan menjelaskan detail apa saja fungsi penggunaan ``` cat ```
+
+
+  contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ```
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
