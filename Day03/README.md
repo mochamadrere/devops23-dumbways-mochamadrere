@@ -66,4 +66,7 @@
 - Oke, saya akan test apakah sudah berhasil, dengan ketikkan perintah ``` ssh -i .ssh/kunci mrua@192.168.1.9 ```
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/ssh%20-i%20.ssh(slash)kunci%20mrua%40192.168.1.9.png)
+
+
+  ## Step by step penggunaan text manipulation (cat, sed, grep, echo)
   
