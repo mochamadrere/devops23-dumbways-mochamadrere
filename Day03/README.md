@@ -75,7 +75,9 @@
 
   namun disini saya akan menjelaskan detail apa saja fungsi penggunaan ``` cat ```
 
-
   contoh untuk membuat sebuah file menggunakan perintah ``` cat > file2 ``` lalu tekan **Enter** dan **CTRL + C**
   
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file2.png)
+
+- Menggabungkan isi dari 2 buah file sekaligus membuat file baru dengan menggunakan perintah ``` cat file1 file2 > file3 ```
+  
