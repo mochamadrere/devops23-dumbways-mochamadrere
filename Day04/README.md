@@ -37,4 +37,5 @@
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file1%20file2%20file3.png)
 
 
+## 3. Manage repository tugas menggunakan terminal
 
