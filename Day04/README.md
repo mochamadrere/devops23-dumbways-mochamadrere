@@ -17,3 +17,8 @@
 - Copy SSH keygen pada terminal di file id_rsa.pub ke platform online GitHub dengan cara klik ``` Setting ``` lalu pilih ``` SSH and GPG keys ``` klik ``` new SSH key ``` dan paste ke kolom **key** dan klik ``` Add SSH key ```
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/copy%20paste%20ssh%20key.png)
+
+
+- cek apakah sudah berhasil dengan ketikkan perintah ``` ssh git@github.com -T ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/test%20masuk%20git%20pada%20terminal.png)
