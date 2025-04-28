@@ -22,3 +22,15 @@
 - cek apakah sudah berhasil dengan ketikkan perintah ``` ssh git@github.com -T ```
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/test%20masuk%20git%20pada%20terminal.png)
+
+- membuat reposiroty "dumbways-batch-23" ketikkan perintah ``` git init dumbways-bacth-23 ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/git%20init%20dumbways%20batch23.png)
+
+- Masuk kedalam repository dumbways-batch-23
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cd%20dumbways%20batch23.png)
+
+- Buat 3 file didalam repository tersebut
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file1%20file2%20file3.png)
