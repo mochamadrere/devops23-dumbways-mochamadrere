@@ -43,7 +43,7 @@
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/git%20clone%20https.png)
 
-- Maka saya akan melakukan cloning file tersebut pada terminal dengan format ``` git clone code_url_https ```
+- Maka saya akan melakukan cloning file tersebut pada terminal dengan format ``` git clone code_url_https_atau_ssh ```
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/git%20clone%20devops23%20repo.png)
 
