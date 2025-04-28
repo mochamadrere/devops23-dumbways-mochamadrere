@@ -7,6 +7,7 @@
 
 **GIT** adalah sistem kontrol versi yang digunakan untuk mencatat perubahan pada file, yang biasanya dalam proyek pengembangan system atau software. Git dapat membantu melacak perubahan yang dibuat ke file dan memungkinkan kembali ke versi yang sebelumnya jika perlu. GIT juga memudahkan banyak pengguna untuk bekerja sama di sebuah proyek yang sama tanpa saling mengacaukan kerjaan masing - masing. GIT berkolaborasi dengan platform online seperti _GitHub, GitLab, atau BitBucket_.
 
+
 ## 2. Buat sebuah repository "dumbways-batch-23" yang berisi 3 file
 
 
@@ -34,3 +35,6 @@
 - Buat 3 file didalam repository tersebut
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/cat%20file1%20file2%20file3.png)
+
+
+
