@@ -104,7 +104,7 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step6.png)
 
-- Terakhir jalankan aplikasi tersebut di terminal dengan masukkan perintah ``` python3 index.py ````
+- Terakhir jalankan aplikasi tersebut di terminal dengan masukkan perintah ``` python3 index.py ```
 
   cek pada terminal apakah sudah berjalan, dengan perintah ``` curl localhost:5000 ``` dan cek pada browser masukkan ``` 192.168.1.9:5000 ```
 
