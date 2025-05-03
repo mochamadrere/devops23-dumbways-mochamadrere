@@ -62,7 +62,7 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
 
   test di terminal baru dengan perintah ``` curl localhost:3000 ``` dan juga test melalui browser ``` 192.168.1.9:3000 ```
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step10.gif)
+  ![alt text]()
 
   
 
