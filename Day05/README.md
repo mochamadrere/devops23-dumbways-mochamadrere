@@ -2,10 +2,7 @@
 
 Di materi kali ini saya akan mencoba untuk mendeploy application di server, web server yang digunakan adalah nginx.
 
-## 1. NodeJS
-
-### A. Deploy app wayshub-frontend
-
+## 1. NodeJS (Deploy app wayshub-frontend, berjalan di port 3000 dan menggunakan NodeJS 13)
 
 - Langkah pertama penginstallan **NodeJS**, buka website resmi NodeJS https://nodejs.org/en/download
 
