@@ -46,5 +46,23 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step6.png)
 
+- Cek file didalam repository wayshub-frontend, apakah sudah ada file script yang di generate menjadi _package.json_
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step8.png)
+
+- Selanjutnya saya akan jalankan app tersebut di port **3000**, edit file _package.json_ masukan perintah ``` nano package.json ``` lalu tambahkan perintah ``` PORT=3000 ``` di bagian scripts "start", jika sudah save
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step7.png)
+
+- Sebelum menjalankan app, pastikan port **3000** sudah diberi akses, jika belum masukkan perintah ``` sudo ufw allow 3000 ``` dan cek kembali dengan perintah ``` sudo ufw status ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step9.png)
+
+- Jika semua sudah oke, saatnya jalankan app **wayshub-frontend** dengan masukkan perintah ``` npm start ```
+
+  test di terminal baru dengan perintah ``` curl localhost:3000 ``` dan juga test melalui browser ``` 192.168.1.9:3000 ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step10.gif)
+
   
 
