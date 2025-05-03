@@ -61,5 +61,54 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_a_step10.gif)
 
+
+## 2. Python (Deploy app menampilkan text nama, berjalan di port 5000 dan bisa dibuka melalui web)
+
+- Aplikasi **Python** di Ubuntu secara default sudah terinstall, jadi tidak perlu melakukan install app python tetapi yang perlu di install adalah _pip_.
+
+  _pip_ adalah package manager untuk menginstall dan mengelola library atau modul external di Python.
+  
+  untuk cek versi python yang digunakan masukkan perintah ``` python3 -V ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step0.png)
+
+  untuk menginstall _pip_ masukan perintah ``` sudo apt install python3-pip ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step1.png)
+
+- Buat sebuah direktori yang bernama python ``` mkdir python ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step2.png)
+
+- Masuk kedalam direktori python lalu install module _flask_ yang berfungsi sebagai web framework di python.
+
+  masukkan perintah ``` pip install flask ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step4.png)
+
+- Setelah install _flask_, saya akan membuat sebuah index.py yang berisi script python
+  
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step3.png)
+
+- Pada bagian def index, masukkan script return 'Hello, Mochamad Rere Ulul Albab' yang artinya pada saat URL dijalankan akan mencetak **'Hello, Mochamad Rere Ulul Albab'**
+
+  pada bagian app.run terdapat script host='0.0.0.0' artinya flask akan menerima koneksi dari semua alamat IP, tanpa ini flask hanya bisa diakses dari localhost.
+
+  port=5000 artinya saya akan menempatkan bahwa flask ini akan berjalan di port **5000**
+  
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step5.png)
+
+- Setelah itu save script tersebut pada file index.py, lalu pastikan port **5000** sudah diberi akses pada ufw, masukkan perintah ``` sudo ufw allow 5000 ```
+
+  lalu cek kembali masukkan perintah ``` sudo ufw status ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step6.png)
+
+- Terakhir jalankan aplikasi tersebut di terminal dengan masukkan perintah ``` python3 index.py ````
+
+  cek pada terminal apakah sudah berjalan, dengan perintah ``` curl localhost:5000 ``` dan cek pada browser masukkan ``` 192.168.1.9:5000 ```
+  
+
+  
   
 
