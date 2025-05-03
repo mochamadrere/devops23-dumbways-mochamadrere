@@ -109,6 +109,29 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
   cek pada terminal apakah sudah berjalan, dengan perintah ``` curl localhost:5000 ``` dan cek pada browser masukkan ``` 192.168.1.9:5000 ```
 
   ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_b_step7.gif?raw=true)
+
+
+## 3. Golang (Deploy app dengan menampilkan text "Golang geming!"
+
+- Langkah pertama download terlebih dahulu aplikasi golang dengan masukkan perintah ``` wget -4 https://go.dev/dl/go1.24.2.linux-amd64.tar.gz ```
+
+  disini saya tambahkan perintah **-4** untuk memaksa menggunakan IPv4 dikarenakan sistem saya gagal konekasi server go.dev via IPv6 pada port 443 (HTTPS)
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step0.png)
+
+- selanjutnya masukkan perintah ``` sudo su ``` untuk masuk sebagai root dikarenakan akan ada perubahan di sistem ubuntu,
+
+  lalu masukkan perintah ``` rm -rf /usr/local/go && tar -C /usr/local -xzf go1.24.2.linux-amd64.tar.gz ``` dan tekan **CTRL + D** untuk exit
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step1.png)
+
+- Masukkan perintah ``` export PATH=$PATH:/usr/local/go/bin ``` yang berfungsi untuk menambahkan **Go** ke dalam PATH environment variable, yang nantinya saat masukkan perintah ```go``` diterminal, perintah tersebut dapat berjalan tanpa perlu mengetik path lengkap.
+
+  lalu cek apakah sudah berhasil dengan ketik perintah ``` go version ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step2.png)  
+
+  
   
 
   
