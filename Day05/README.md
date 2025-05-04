@@ -129,7 +129,22 @@ Di materi kali ini saya akan mencoba untuk mendeploy application di server, web 
 
   lalu cek apakah sudah berhasil dengan ketik perintah ``` go version ```
 
-  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step2.png)  
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step2.png)
+
+- Buat sebuah direktori bernama golang ``` mkdir golang ``` lalu masuk ke direktori tersebut.
+
+  Dan buat sebuah file yang bernama **index.go** ``` nano index.go ``` yang nantinya akan saya masukan script index sederhana untuk mencetak kalimat **Golang geming!** dan save script tersebut.
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step3.png)
+
+- selanjutnya jalankan script yang ada di file **index.go** dengan masukkan perintah ``` go run index.go ```
+
+  ![alt text](https://github.com/mochamadrere/devops23-dumbways-mochamadrere/blob/main/Pict/day5_c_step4.png)
+
+
+# Thank You
+
+  
 
   
   
